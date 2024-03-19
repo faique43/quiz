@@ -66,10 +66,10 @@ class Login extends StatelessWidget {
                       profileData: ProfileData(
                         name: 'Faique Ahmad Khan',
                         imageName: 'ME.jpg',
-                        phone: '123-456-7890',
+                        phone: '03336118864',
                         email: 'faiqueahmadkhan@gmail.com',
-                        biometric: true,
-                        address: '123 Street, City, Country',
+                        biometric: false,
+                        address: 'NUST H-12, Islamabad',
                       ),
                     ),
                   ),

@@ -34,9 +34,10 @@ class Profile extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            CircleAvatar(
-              radius: 60,
-              backgroundImage: AssetImage(profileData.imageName),
+            Image.network(
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEZRChoJDJsM8gFHzSNo2nFT5TKYqsl99S7Q&usqp=CAU', // Placeholder logo URL
+              width: 150,
+              height: 150,
             ),
             SizedBox(height: 20),
             Text(
